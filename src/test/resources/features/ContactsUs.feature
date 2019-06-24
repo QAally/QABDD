@@ -12,7 +12,7 @@ Scenario Outline:  I search hotmail
     |1|
 
     
-@GmailLogin
+@GmailLogins
 Scenario:  I login with invalid credential to Gmail
     Given I navigate to "https://www.google.com/gmail/about/" 
 	And I click on the sign on link
@@ -21,7 +21,7 @@ Scenario:  I login with invalid credential to Gmail
 	And I click on the next button
 	Then a message "Couldn't find your Google Account" should be displayed
 	
-@GmailLogin
+@GmailLogins
 Scenario:  Validate invalid login message
     Given I navigate to "https://www.google.com/gmail/about/" 
 	And I click on the sign on link

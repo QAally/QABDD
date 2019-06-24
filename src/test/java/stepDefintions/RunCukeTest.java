@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(strict = false, 
 format = { "pretty","html:target/site/cucumber-pretty", "json:target/cucumber.json","com.cucumber.listener.ExtentCucumberFormatter:target/report.html" }, 
 features = "classpath:features",
-tags="@RegressionChrome,@GmailLogin,@GmailTests",
+tags="@RegressionChromeCDC,@GmailLogins",
 glue = {"info.seleniumcucumber.stepdefinitions"}
 
 ///*tags = { ""@ignore&quot; })*/
