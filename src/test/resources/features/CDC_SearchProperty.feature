@@ -24,7 +24,7 @@ Feature: Compliance Data Consolidation: Search for a property and upload action 
   
   #@RegressionComplianceDataConsolidation
 
-    @RegressionChrome
+    @RegressionChromeCDC
     Scenario: Search by property reference
     Given I navigate to "http://www.google.com "
    
